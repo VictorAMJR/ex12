@@ -20,10 +20,8 @@ class Queue {
   char[] queue;
   int front;
   int size;
-  //int capacity;
 
   public Queue() {
-    //this.capacity = capacity;
     this.queue = new char[10];
     this.front = 0;
     this.size = 0;
